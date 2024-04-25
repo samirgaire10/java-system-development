@@ -1,5 +1,4 @@
-/* GENERAL */
-
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -15,12 +14,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-/* p {
-  color: rgb(85, 85, 85);
-} */
-
-/* TRANSITION */
 
 a,
 .btn {
@@ -46,18 +39,17 @@ nav {
   font-size: 1.5rem;
 }
 
-a {
+ a { 
   color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
-
+ 
 a:hover {
   color: grey;
-  text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
-}
+} 
 
 .logo {
   font-size: 2rem;
@@ -250,9 +242,9 @@ section {
   background: rgb(0, 0, 0);
 }
 
-/* .btn-color-2 {
+.btn-color-2 {
   background: none;
-} */
+}
 
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
@@ -297,12 +289,17 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(120, 112, 112);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+
+  display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
 }
+
 
 .section-container {
   gap: 4rem;

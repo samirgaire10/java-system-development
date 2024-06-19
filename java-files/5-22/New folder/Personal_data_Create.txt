@@ -1,0 +1,12 @@
+create database forjava;
+use forjava
+create table personal_data(id int primary key AUTO_INCREMENT,name varchar(20),age int,tel varchar(20));
+insert into personal_data(name,age,tel) values('“c’†³u',28,'03-***-******');
+insert into personal_data(name,age,tel) values('‘åR—R”üq',21,'03-***-******');
+insert into personal_data(name,age,tel) values('’†‘ºŸ˜Y',35,'06-***-******');
+insert into personal_data(name,age,tel) values('´…‰ëq',19,'052-***-******');
+insert into personal_data(name,age,tel) values('–Ø‘ºF”V',24,'075-***-******');
+insert into personal_data(name,age,tel) values('“ú–ìÍq',37,'06-***-******');
+insert into personal_data(name,age,tel) values('K“cˆ»•q',22,'03-***-******');
+insert into personal_data(name,age,tel) values('–ì’†”ü—R‹I',26,'03-***-******');
+insert into personal_data(name,age,tel) values('¬R‘•c',18,'052-***-******');

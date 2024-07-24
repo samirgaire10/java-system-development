@@ -1,0 +1,1 @@
+jar -cvfm MyEditor.jar MANIGEST.MF *.class  *.jar

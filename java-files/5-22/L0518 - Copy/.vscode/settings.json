@@ -1,0 +1,26 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "/run/media/samirgaire10/2A10-8058/kamata/2/Java/files/LO0517/UCanAccess-3.0.7-bin/lib/commons-lang-2.6.jar",
+            "/run/media/samirgaire10/2A10-8058/kamata/2/Java/files/LO0517/UCanAccess-3.0.7-bin/lib/commons-logging-1.1.1.jar",
+            "/run/media/samirgaire10/2A10-8058/kamata/2/Java/files/LO0517/UCanAccess-3.0.7-bin/lib/hsqldb.jar",
+            "/run/media/samirgaire10/2A10-8058/kamata/2/Java/files/LO0517/UCanAccess-3.0.7-bin/lib/jackcess-2.1.3.jar",
+            "/run/media/samirgaire10/2A10-8058/kamata/2/Java/files/LO0517/UCanAccess-3.0.7-bin/lib/ucanaccess-3.0.7.jar",
+            "d:\\kamata\\2\\Java\\java-system-development\\UCanAccess-3.0.7-bin\\UCanAccess-3.0.7-bin\\lib\\commons-lang-2.6.jar",
+            "d:\\kamata\\2\\Java\\java-system-development\\UCanAccess-3.0.7-bin\\UCanAccess-3.0.7-bin\\lib\\commons-logging-1.1.1.jar",
+            "d:\\kamata\\2\\Java\\java-system-development\\UCanAccess-3.0.7-bin\\UCanAccess-3.0.7-bin\\lib\\hsqldb.jar",
+            "d:\\kamata\\2\\Java\\java-system-development\\UCanAccess-3.0.7-bin\\UCanAccess-3.0.7-bin\\lib\\jackcess-2.1.3.jar",
+            "d:\\kamata\\2\\Java\\java-system-development\\UCanAccess-3.0.7-bin\\UCanAccess-3.0.7-bin\\lib\\ucanaccess-3.0.7.jar"
+        ],
+        "exclude": [
+            "lib/commons-lang-2.6.jar",
+            "lib/commons-logging-1.1.1.jar",
+            "lib/hsqldb.jar",
+            "lib/jackcess-2.1.3.jar",
+            "lib/ucanaccess-3.0.7.jar"
+        ]
+    }
+}
